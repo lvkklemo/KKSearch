@@ -15,6 +15,13 @@
 		841140ED1DD422F000963DB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841140EB1DD422F000963DB8 /* LaunchScreen.storyboard */; };
 		841140F81DD422F000963DB8 /* KKSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841140F71DD422F000963DB8 /* KKSearchTests.m */; };
 		841141031DD422F000963DB8 /* KKSearchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841141021DD422F000963DB8 /* KKSearchUITests.m */; };
+		8411411F1DD437AA00963DB8 /* PYSearch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 841141131DD437AA00963DB8 /* PYSearch.bundle */; };
+		841141201DD437AA00963DB8 /* PYSearchConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 841141161DD437AA00963DB8 /* PYSearchConst.m */; };
+		841141211DD437AA00963DB8 /* PYSearchSuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841141181DD437AA00963DB8 /* PYSearchSuggestionViewController.m */; };
+		841141221DD437AA00963DB8 /* PYSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411411A1DD437AA00963DB8 /* PYSearchViewController.m */; };
+		841141231DD437AA00963DB8 /* UIColor+PYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411411C1DD437AA00963DB8 /* UIColor+PYExtension.m */; };
+		841141241DD437AA00963DB8 /* UIView+PYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411411E1DD437AA00963DB8 /* UIView+PYExtension.m */; };
+		841141271DD4397800963DB8 /* KKSearchExampleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 841141261DD4397800963DB8 /* KKSearchExampleVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,15 +49,29 @@
 		841140E31DD422F000963DB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		841140E41DD422F000963DB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		841140E71DD422F000963DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		841140E91DD422F000963DB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		841140E91DD422F000963DB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		841140EC1DD422F000963DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		841140EE1DD422F000963DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841140EE1DD422F000963DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		841140F31DD422F000963DB8 /* KKSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		841140F71DD422F000963DB8 /* KKSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKSearchTests.m; sourceTree = "<group>"; };
 		841140F91DD422F000963DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		841140FE1DD422F000963DB8 /* KKSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		841141021DD422F000963DB8 /* KKSearchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKSearchUITests.m; sourceTree = "<group>"; };
 		841141041DD422F000963DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841141131DD437AA00963DB8 /* PYSearch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PYSearch.bundle; sourceTree = "<group>"; };
+		841141141DD437AA00963DB8 /* PYSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearch.h; sourceTree = "<group>"; };
+		841141151DD437AA00963DB8 /* PYSearchConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchConst.h; sourceTree = "<group>"; };
+		841141161DD437AA00963DB8 /* PYSearchConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchConst.m; sourceTree = "<group>"; };
+		841141171DD437AA00963DB8 /* PYSearchSuggestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchSuggestionViewController.h; sourceTree = "<group>"; };
+		841141181DD437AA00963DB8 /* PYSearchSuggestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchSuggestionViewController.m; sourceTree = "<group>"; };
+		841141191DD437AA00963DB8 /* PYSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchViewController.h; sourceTree = "<group>"; };
+		8411411A1DD437AA00963DB8 /* PYSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchViewController.m; sourceTree = "<group>"; };
+		8411411B1DD437AA00963DB8 /* UIColor+PYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PYExtension.h"; sourceTree = "<group>"; };
+		8411411C1DD437AA00963DB8 /* UIColor+PYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PYExtension.m"; sourceTree = "<group>"; };
+		8411411D1DD437AA00963DB8 /* UIView+PYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PYExtension.h"; sourceTree = "<group>"; };
+		8411411E1DD437AA00963DB8 /* UIView+PYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PYExtension.m"; sourceTree = "<group>"; };
+		841141251DD4397800963DB8 /* KKSearchExampleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSearchExampleVC.h; sourceTree = "<group>"; };
+		841141261DD4397800963DB8 /* KKSearchExampleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSearchExampleVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +126,10 @@
 				841140E11DD422F000963DB8 /* AppDelegate.m */,
 				841140E31DD422F000963DB8 /* ViewController.h */,
 				841140E41DD422F000963DB8 /* ViewController.m */,
-				841140E61DD422F000963DB8 /* Main.storyboard */,
-				841140E91DD422F000963DB8 /* Assets.xcassets */,
-				841140EB1DD422F000963DB8 /* LaunchScreen.storyboard */,
-				841140EE1DD422F000963DB8 /* Info.plist */,
+				841141251DD4397800963DB8 /* KKSearchExampleVC.h */,
+				841141261DD4397800963DB8 /* KKSearchExampleVC.m */,
+				841141101DD4258C00963DB8 /* Lib */,
+				841141111DD425F900963DB8 /* Resource */,
 				841140DD1DD422F000963DB8 /* Supporting Files */,
 			);
 			path = KKSearch;
@@ -138,6 +159,44 @@
 				841141041DD422F000963DB8 /* Info.plist */,
 			);
 			path = KKSearchUITests;
+			sourceTree = "<group>";
+		};
+		841141101DD4258C00963DB8 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				841141121DD437AA00963DB8 /* PYSearch */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		841141111DD425F900963DB8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				841140E61DD422F000963DB8 /* Main.storyboard */,
+				841140E91DD422F000963DB8 /* Assets.xcassets */,
+				841140EB1DD422F000963DB8 /* LaunchScreen.storyboard */,
+				841140EE1DD422F000963DB8 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		841141121DD437AA00963DB8 /* PYSearch */ = {
+			isa = PBXGroup;
+			children = (
+				841141131DD437AA00963DB8 /* PYSearch.bundle */,
+				841141141DD437AA00963DB8 /* PYSearch.h */,
+				841141151DD437AA00963DB8 /* PYSearchConst.h */,
+				841141161DD437AA00963DB8 /* PYSearchConst.m */,
+				841141171DD437AA00963DB8 /* PYSearchSuggestionViewController.h */,
+				841141181DD437AA00963DB8 /* PYSearchSuggestionViewController.m */,
+				841141191DD437AA00963DB8 /* PYSearchViewController.h */,
+				8411411A1DD437AA00963DB8 /* PYSearchViewController.m */,
+				8411411B1DD437AA00963DB8 /* UIColor+PYExtension.h */,
+				8411411C1DD437AA00963DB8 /* UIColor+PYExtension.m */,
+				8411411D1DD437AA00963DB8 /* UIView+PYExtension.h */,
+				8411411E1DD437AA00963DB8 /* UIView+PYExtension.m */,
+			);
+			path = PYSearch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +307,7 @@
 			files = (
 				841140ED1DD422F000963DB8 /* LaunchScreen.storyboard in Resources */,
 				841140EA1DD422F000963DB8 /* Assets.xcassets in Resources */,
+				8411411F1DD437AA00963DB8 /* PYSearch.bundle in Resources */,
 				841140E81DD422F000963DB8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,8 +333,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841141201DD437AA00963DB8 /* PYSearchConst.m in Sources */,
+				841141241DD437AA00963DB8 /* UIView+PYExtension.m in Sources */,
 				841140E51DD422F000963DB8 /* ViewController.m in Sources */,
+				841141211DD437AA00963DB8 /* PYSearchSuggestionViewController.m in Sources */,
+				841141271DD4397800963DB8 /* KKSearchExampleVC.m in Sources */,
+				841141221DD437AA00963DB8 /* PYSearchViewController.m in Sources */,
 				841140E21DD422F000963DB8 /* AppDelegate.m in Sources */,
+				841141231DD437AA00963DB8 /* UIColor+PYExtension.m in Sources */,
 				841140DF1DD422F000963DB8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +383,7 @@
 				841140E71DD422F000963DB8 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		841140EB1DD422F000963DB8 /* LaunchScreen.storyboard */ = {
@@ -325,6 +392,7 @@
 				841140EC1DD422F000963DB8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
