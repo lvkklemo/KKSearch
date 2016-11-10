@@ -22,6 +22,7 @@
 		841141231DD437AA00963DB8 /* UIColor+PYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411411C1DD437AA00963DB8 /* UIColor+PYExtension.m */; };
 		841141241DD437AA00963DB8 /* UIView+PYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411411E1DD437AA00963DB8 /* UIView+PYExtension.m */; };
 		841141271DD4397800963DB8 /* KKSearchExampleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 841141261DD4397800963DB8 /* KKSearchExampleVC.m */; };
+		8411412C1DD459CB00963DB8 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411412B1DD459CB00963DB8 /* UIViewExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		8411411E1DD437AA00963DB8 /* UIView+PYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PYExtension.m"; sourceTree = "<group>"; };
 		841141251DD4397800963DB8 /* KKSearchExampleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSearchExampleVC.h; sourceTree = "<group>"; };
 		841141261DD4397800963DB8 /* KKSearchExampleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSearchExampleVC.m; sourceTree = "<group>"; };
+		8411412A1DD459CB00963DB8 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		8411412B1DD459CB00963DB8 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +175,8 @@
 		841141111DD425F900963DB8 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				8411412A1DD459CB00963DB8 /* UIViewExt.h */,
+				8411412B1DD459CB00963DB8 /* UIViewExt.m */,
 				841140E61DD422F000963DB8 /* Main.storyboard */,
 				841140E91DD422F000963DB8 /* Assets.xcassets */,
 				841140EB1DD422F000963DB8 /* LaunchScreen.storyboard */,
@@ -335,6 +340,7 @@
 			files = (
 				841141201DD437AA00963DB8 /* PYSearchConst.m in Sources */,
 				841141241DD437AA00963DB8 /* UIView+PYExtension.m in Sources */,
+				8411412C1DD459CB00963DB8 /* UIViewExt.m in Sources */,
 				841140E51DD422F000963DB8 /* ViewController.m in Sources */,
 				841141211DD437AA00963DB8 /* PYSearchSuggestionViewController.m in Sources */,
 				841141271DD4397800963DB8 /* KKSearchExampleVC.m in Sources */,
@@ -575,6 +581,7 @@
 				841141091DD422F000963DB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8411410A1DD422F000963DB8 /* Build configuration list for PBXNativeTarget "KKSearchTests" */ = {
 			isa = XCConfigurationList;
@@ -583,6 +590,7 @@
 				8411410C1DD422F000963DB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8411410D1DD422F000963DB8 /* Build configuration list for PBXNativeTarget "KKSearchUITests" */ = {
 			isa = XCConfigurationList;
@@ -591,6 +599,7 @@
 				8411410F1DD422F000963DB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
